@@ -5,6 +5,7 @@ import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 import PublicIcon from '@material-ui/icons/Public';
 import AccessibilityNewIcon from '@material-ui/icons/AccessibilityNew';
 import { FaEllipsisH } from 'react-icons/fa';
+import { GoVerified } from 'react-icons/go'
 
 function Header({avatar, name, verified, time, audience}) {
     return (
@@ -14,7 +15,7 @@ function Header({avatar, name, verified, time, audience}) {
             </div>
             <div>
                 <div className="Header__User">
-                    <h3> {name} </h3> {verified && <VerifiedUserIcon />}
+                    <h3> {name} </h3> {verified && <GoVerified className="verified__icon" />}
                 </div>
                 <div className="Header">
                     <p> {time} ·</p> {audience ? <PublicIcon /> : <AccessibilityNewIcon />}

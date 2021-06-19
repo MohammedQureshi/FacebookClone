@@ -8,9 +8,9 @@ export class Panel extends React.Component {
     constructor(props) {
         super(props);
         this.listItems = props.links.map((link) => {
+            console.log(link)
                 let el;
                 if(link.type == User.type) {
-                    console.dir(link);
                     el = <li key={link.toString()}>
                     <a href="/">
                         <div className={"icon"}>
@@ -22,7 +22,6 @@ export class Panel extends React.Component {
                     </a>
                 </li>
                 } else {
-                    console.log(link)
                     el = <li key={link.toString()}>
                         <a href="/">
                             <div className={"icon"}>

@@ -25,6 +25,7 @@
 .Post__Buttons{
     display: flex;
     padding: 5px 10px;
+    border-top: 1px solid #CED0D4;
     
 }
 
@@ -48,4 +49,8 @@
 .Post__Buttons > button:hover{
     background-color: #F2F2F2;
     border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.Post__Button{
+    font-size: 18px;
 }

@@ -21,6 +21,7 @@ function MiddlePanel() {
               audience={post.audience}
               text={post.text}
               content={post.content}
+              verified={post.verified}
               />
           ))}
       </div>

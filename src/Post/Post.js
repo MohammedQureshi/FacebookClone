@@ -24,9 +24,9 @@ function Post({avatar, name, verified, time, audience, text, content}) {
                 {content && <img src={content} alt={content} />}
             </div>
             <div className="Post__Buttons">
-                <button><AiOutlineLike /><h3> Like</h3></button>
-                <button><FaRegCommentAlt /><h3> Comment</h3></button>
-                <button><RiShareForwardLine /><h3> Share</h3></button>
+                <button><AiOutlineLike className="Post__Button" /><h3> Like</h3></button>
+                <button><FaRegCommentAlt className="Post__Button" /><h3> Comment</h3></button>
+                <button><RiShareForwardLine className="Post__Button" /><h3> Share</h3></button>
             </div>
         </div>
     )
