@@ -1,0 +1,116 @@
+.FacebookClone__Header{
+    height: 56px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.FacebookClone__Search{
+    display: flex;
+    flex: 0.3;
+}
+
+.FacebookClone__Search img{
+    width: 80px;
+}
+
+.FacebookClone__SearchBox{
+    background-color: var(--background);
+    border-radius: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 237px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.FacebookClone__SearchBox > input{
+    background-color: var(--background);
+    border: none;
+    height: 20px;
+    margin-top: 7px;
+    width: 100%;
+}
+
+.FacebookClone__SearchBox > .FacebookClone__Icon{
+    margin-top: 5px;
+    color: #606770;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.FacebookClone__Navigation{
+    flex: 0.4;
+    margin: auto;
+    text-align: center;
+}
+
+.FacebookClone__Navigation > button{
+    background-color: white;
+    border: none;
+    color: #65676B;
+    padding-left: 55px;
+    padding-right: 55px;
+    cursor:pointer;
+}
+
+button .MuiSvgIcon-root{
+    font-size: 30px !important;
+    padding: 5px;
+}
+
+.FacebookClone__Navigation > button:hover{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 15px;
+}
+
+.FacebookClone__Settings{
+    flex: 0.3;
+    display: flex;
+    padding: 7px;
+    justify-content: flex-end;
+}
+
+.FacebookClone__SettingsIcons{
+    padding-left: 10px;
+}
+
+.FacebookClone__SettingsIcons button{
+    background-color: white;
+    border: none;
+    color: black;
+    background-color: #E4E6EB;
+    border-radius: 100%;
+    margin-right: 10px;
+    text-align: center;
+    width: 45px;
+    cursor:pointer;
+}
+
+.FacebookClone__SettingsIcons > button  > .MuiSvgIcon-root{
+    font-size: 25px !important;
+}
+
+.FacebookClone__SettingsIcons > button:hover{
+    background-color: #F2F2F2;
+    border: none;
+    border-radius: 100%;
+}
+
+.FacebookClone__Settings > h3{
+    padding: 8px;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: -1px;;
+    font-size: 17px;
+}
+
+.FacebookClone__SettingsAvatar{
+    width: 30px !important;
+    height: 30px !important;
+    margin-top: 5px !important;
+}

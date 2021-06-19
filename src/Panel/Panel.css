@@ -1,0 +1,44 @@
+.FacebookClone__Panel {
+    padding:0;
+}
+
+.FacebookClone__Panel li {
+    list-style: none;
+    border-radius: 0.7rem;
+    padding: 5px;
+    margin-bottom: 2px;
+    cursor:pointer;
+}
+
+.FacebookClone__Panel li:hover {
+    background-color: var(--panel-link-hover, #E9EBEE);
+}
+
+.FacebookClone__Panel a {
+    display:inline list-item;
+    width:99%;
+    margin: 0 auto;
+}
+
+.FacebookClone__Panel a div {
+    display:inline-block;
+}
+
+.FacebookClone__Panel img {
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+
+}
+
+.FacebookClone__Panel .link-details {
+    transform: translate(0%, -50%);
+    margin-left:10px;
+    color: black;
+    font-weight: 600;
+}
+
+.FacebookClone__Panel .image {
+    float:left;
+}
+
