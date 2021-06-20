@@ -12,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    height: 40%;
+
     background-color: white;
     border-radius: 1rem;
     margin-top: 15%;
@@ -78,10 +78,15 @@
     padding: 10px;
     margin-left: 20px;
     margin-top: 0;
+    margin-bottom: 15px;
     cursor: pointer;
     border:none;
     border-radius: 0.5rem;
     background-color: #2D88FF;
     color: white;
     font-weight: 600;
+}
+
+.PopOutPost__Submit > button:hover{
+    background-color: #187cff;
 }
