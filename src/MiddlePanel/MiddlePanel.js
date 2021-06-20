@@ -2,6 +2,7 @@ import React , {useState, useEffect} from 'react'
 import Post from '../Post/Post';
 import './MiddlePanel.css'
 import db from '../firebase'
+import PostTextBox from './PostTextBox'
 
 function MiddlePanel() {
     const [posts, setPosts] = useState([]);
@@ -13,17 +14,22 @@ function MiddlePanel() {
     }, [])
     return (
       <div className="MiddlePanel">
-          {posts.map(post => (
-              <Post 
-              name={post.name}
-              avatar={post.avatar}
-              time={post.time}
-              audience={post.audience}
-              text={post.text}
-              content={post.content}
-              verified={post.verified}
-              />
-          ))}
+          <div>
+              <PostTextBox />
+          </div>
+          <div>
+            {posts.map(post => (
+                <Post 
+                name={post.name}
+                avatar={post.avatar}
+                time={post.time}
+                audience={post.audience}
+                text={post.text}
+                content={post.content}
+                verified={post.verified}
+                />
+            ))}
+          </div>
       </div>
     );
 }

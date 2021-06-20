@@ -1,0 +1,87 @@
+.PopOutPost{
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(66, 66, 66, 0.8);
+}
+
+.PopOutPost__Post{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 15%;
+}
+
+.PopOutPost__Title{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.PopOutPost__Title > h3{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 90px;
+}
+
+.PopOutPost__Title > button{
+    margin: 15px;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    font-size: 25px;
+    border: none;
+    background-color: #E4E6EB;
+    color: #606770;
+    cursor: pointer;
+}
+
+.PopOutPost__Title > button:hover{
+    background-color: #d9dadf;
+}
+
+.PopOutPost__Header{
+    display: flex;
+}
+
+.PopOutPost__Header h3{
+    margin: 0;
+}
+
+.PopOutPost__Avatar{
+    padding: 15px;
+}
+
+.PopOutPost__Name{
+    padding: 10px;
+    padding-left: 0;
+}
+
+.PopOutPost__InputBox > textarea{
+    width: 95%;
+    margin: 10px;
+    margin-top: 0;
+    border: none;
+    font-size: 20px;
+    resize: none;
+}
+
+.PopOutPost__Submit > button{
+    width: 95%;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 0;
+    cursor: pointer;
+    border:none;
+    border-radius: 0.5rem;
+    background-color: #2D88FF;
+    color: white;
+    font-weight: 600;
+}

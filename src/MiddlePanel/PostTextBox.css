@@ -1,0 +1,88 @@
+.PostTextBox{
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    margin-top: 15px;
+}
+
+.PostTextBox__Head{
+    display: flex;
+    padding: 15px;
+}
+
+.PostTextBox__Buttons{
+    display: flex;
+    width: 100%;
+}
+
+.PostTextBox__Buttons > button{
+    width: 100%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PostTextBox__Buttons > button > h3{
+    margin: 10px;
+}
+
+.PostTextBox__Buttons > button:hover{
+    background-color: #e6e6e6;
+}
+
+.ButtonIcons__Live{
+    color: #F02849;
+    font-size: 20px;
+}
+
+.ButtonIcons__Photo{
+    color: #45BD62;
+    font-size: 20px;
+}
+
+.ButtonIcons__Feeling{
+    color: #F7B928;
+    font-size: 20px;
+}
+
+.PostTextBox__Head > button{
+    width: 100%;
+    border-radius: 2rem;
+    border: none;
+    background-color: #F0F2F5;
+    text-align: start;
+    font-size: 16px;
+    color: #656796;
+    padding-left: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.PostTextBox__Head > button:hover{
+    background-color: #e6e6e6;
+}
+
+
+.Test{
+    z-index: 999 !important;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.PopOutPost__Name > select {
+    border: none;
+    background-color: #E4E6EB;
+    border-radius: 0.5rem;
+    padding: 3px;
+    font-weight: 600;
+}
