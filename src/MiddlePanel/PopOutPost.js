@@ -2,13 +2,13 @@ import React from 'react'
 import './PopOutPost.css'
 import Avatar from '@material-ui/core/Avatar'
 
-function PopOutPost() {
+function PopOutPost({toggleCollapse}) {
     return (
         <div className="PopOutPost">
             <div className="PopOutPost__Post">
                 <div className="PopOutPost__Title">
                     <h3> Create post </h3> 
-                    <button> X </button>
+                    <button onClick={() => { toggleCollapse()}} > X </button>
                 </div>
                 <div className="PopOutPost__Header">
                     <div className="PopOutPost__Avatar">
