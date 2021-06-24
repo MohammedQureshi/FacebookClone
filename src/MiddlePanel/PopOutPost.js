@@ -3,6 +3,10 @@ import "./PopOutPost.css";
 import Avatar from "@material-ui/core/Avatar";
 
 function PopOutPost({ toggleCollapse }) {
+  function FacebookPost() {
+    toggleCollapse();
+    console.log("POSTED");
+  }
   return (
     <div className="PopOutPost">
       <div className="PopOutPost__Post">
@@ -30,7 +34,7 @@ function PopOutPost({ toggleCollapse }) {
           ></textarea>
         </div>
         <div className="PopOutPost__Submit">
-          <button>Post</button>
+          <button onClick={() => FacebookPost()}>Post</button>
         </div>
       </div>
     </div>

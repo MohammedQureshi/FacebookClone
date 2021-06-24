@@ -15,7 +15,7 @@ export class Panel extends React.Component {
           <li key={link.toString()}>
             <a href="/">
               <div className={"icon"}>
-                {/* <Image src={link.imageInterface.image.imageSource} alt={link.image.imageAlt}/> */}
+                <Image src={link.image} alt={link.text} />
               </div>
               <div className={"link-details"}>
                 <span> {link.text} </span>
@@ -28,11 +28,7 @@ export class Panel extends React.Component {
           <li key={link.toString()}>
             <a href="/">
               <div className={"icon"}>
-                {/* <Image src={link.image.src} alt={link.image.imageAlt}/> */}
-                <Image
-                  src="http://www.mohammedqureshi.co.uk/static/media/profile.3ff235e5.png"
-                  alt="SAMPLE"
-                />
+                <Image src={link.image} alt={link.text} />
               </div>
               <div className={"link-details"}>
                 <span> {link.text} </span>
