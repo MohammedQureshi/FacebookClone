@@ -1,6 +1,5 @@
 import React from "react";
 import Panel from "./Panel";
-import ImageProperties from "../Image/ImageProperties";
 import Link from "../Link/Link";
 import "./LeftSidePanel.css";
 
@@ -9,7 +8,7 @@ export class LeftSidePanel extends Panel {
     const items = [
       new Link(
         "https://media-exp3.licdn.com/dms/image/C4E03AQF2s8dGWpgC5g/profile-displayphoto-shrink_200_200/0/1592998404125?e=1629331200&v=beta&t=5IRMkWHeb6gNJBhmuZZcLKYNGjyaJ6Pd3F-ER5lVRxY",
-        "Mohammed Qureshi"
+        "LtConquer"
       ),
       new Link(
         "https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/5rR6LRpNc5u.png",

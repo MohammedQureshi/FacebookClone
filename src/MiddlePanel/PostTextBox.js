@@ -18,7 +18,7 @@ function PostTextBox() {
       <div className="PostTextBox__Head">
         <Avatar src="https://media-exp3.licdn.com/dms/image/C4E03AQF2s8dGWpgC5g/profile-displayphoto-shrink_200_200/0/1592998404125?e=1629331200&v=beta&t=5IRMkWHeb6gNJBhmuZZcLKYNGjyaJ6Pd3F-ER5lVRxY" />
         <button onClick={() => setIsCollapsed(true)}>
-          What's on your mind, Mohammed?
+          What's on your mind, LtConquer?
         </button>
       </div>
       <div className="PostTextBox__Buttons">
