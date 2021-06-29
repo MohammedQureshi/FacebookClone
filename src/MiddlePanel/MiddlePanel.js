@@ -3,6 +3,7 @@ import Post from "../Post/Post";
 import "./MiddlePanel.css";
 import db from "../firebase";
 import PostTextBox from "./PostTextBox";
+import FlipMove from "react-flip-move";
 
 function MiddlePanel() {
   const [posts, setPosts] = useState([]);
@@ -18,17 +19,20 @@ function MiddlePanel() {
         <PostTextBox />
       </div>
       <div>
-        {posts.map((post) => (
-          <Post
-            name={post.name}
-            avatar={post.avatar}
-            time={post.time}
-            audience={post.audience}
-            text={post.text}
-            content={post.content}
-            verified={post.verified}
-          />
-        ))}
+        <FlipMove>
+          {posts.map((post) => (
+            <Post
+              key={post.text}
+              name={post.name}
+              avatar={post.avatar}
+              time={post.time}
+              audience={post.audience}
+              text={post.text}
+              content={post.content}
+              verified={post.verified}
+            />
+          ))}
+        </FlipMove>
       </div>
     </div>
   );

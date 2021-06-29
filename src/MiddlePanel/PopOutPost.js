@@ -8,7 +8,6 @@ function PopOutPost({ toggleCollapse }) {
   const [facebookStatus, setFacebookStatus] = useState("");
 
   const sendFacebookPost = (e) => {
-    console.log(facebookStatus);
     db.collection("posts").add({
       name: "LtConquer",
       verified: true,
@@ -38,8 +37,8 @@ function PopOutPost({ toggleCollapse }) {
           <div className="PopOutPost__Name">
             <h3>LtConquer</h3>
             <select onChange={(e) => setFacebookStatus(e.target.value)}>
-              <option value={false}>Public</option>
-              <option value={true}>Friends</option>
+              <option value={false}>Friends</option>
+              <option value={true}>Public</option>
             </select>
           </div>
         </div>
